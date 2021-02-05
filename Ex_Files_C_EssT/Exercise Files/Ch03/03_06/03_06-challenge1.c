@@ -5,6 +5,10 @@ int main()
 	int artifacts,rooms,paintings,sculptures;
 
 	/* code your calculations here */
+    rooms = 12;
+    paintings = 16;
+    sculptures = 4;
+    artifacts = (16 + 4) * 12;
 
 	printf("This museum has %d artifacts\n",artifacts);
 
