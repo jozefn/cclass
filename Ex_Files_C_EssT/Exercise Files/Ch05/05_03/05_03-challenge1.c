@@ -1,5 +1,14 @@
 #include <stdio.h>
 
+void line(void)
+{
+    for (int i = 0; i <= 40; i++)
+    {
+        putchar('-');
+    }
+    putchar('\n');
+}
+
 int main()
 {
 	puts("How to Fight Off a Robot Attack");
